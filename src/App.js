@@ -9,8 +9,6 @@ import AboutPage from "./Components/AboutPage/AboutPage";
 function App() {
   return (
     <Router>
-      {" "}
-      {/* HashRouter тут */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/order" element={<OrderPage />} />
