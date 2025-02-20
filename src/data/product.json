@@ -55,7 +55,7 @@
       "Thai Basil",
       "Spicy Peanut Dressing"
     ],
-    "image": "/img/product/Spicy-Thai-Delight.png",
+    "image": "/img/product/Spicy-Thai-Delight.jpg",
     "buttonText": "Order now"
   },
   {
@@ -70,7 +70,7 @@
       "Crispy Onions",
       "Sesame Ginger Dressing"
     ],
-    "image": "/img/product/Beef-&-Avocado-Bliss.png",
+    "image": "/img/product/Beef-&-Avocado-Bliss.jpg",
     "buttonText": "Order now"
   },
   {
@@ -85,7 +85,7 @@
       "Cucumber",
       "Citrus Vinaigrette"
     ],
-    "image": "/img/product/Tofu-Garden-Bowl.png",
+    "image": "/img/product/Tofu-Garden-Bowl.jpg",
     "buttonText": "Order now"
   },
   {
@@ -100,7 +100,7 @@
       "Sesame Seeds",
       "Hoisin Glaze"
     ],
-    "image": "/img/product/Crispy-Duck-Sensation.png",
+    "image": "/img/product/Crispy-Duck-Sensation.jpg",
     "buttonText": "Order now"
   },
   {
@@ -115,7 +115,7 @@
       "Sesame Seeds",
       "Lemon Herb Dressing"
     ],
-    "image": "/img/product/Salmon-Power-Bowl.png",
+    "image": "/img/product/Salmon-Power-Bowl.jpg",
     "buttonText": "Order now"
   }
 ]
