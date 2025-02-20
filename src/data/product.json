@@ -14,7 +14,7 @@
     "buttonText": "Order now"
   },
   {
-    "name": "Mediterranean Catch",
+    "name": "Hawaian Paradise",
     "category": "Seafood",
     "ingredients": [
       "Arugula",
@@ -25,11 +25,11 @@
       "Red Onion",
       "Lemon Dressing"
     ],
-    "image": "/img/product/pork-desire.png",
+    "image": "/img/product/hawaian-paradise.png",
     "buttonText": "Order now"
   },
   {
-    "name": "Sunset Harvest",
+    "name": "California Love",
     "category": "Vegan",
     "ingredients": [
       "Baby Spinach",
@@ -40,7 +40,7 @@
       "Avocado",
       "Balsamic Glaze"
     ],
-    "image": "/img/product/pork-desire.png",
+    "image": "/img/product/california-love.png",
     "buttonText": "Order now"
   },
   {
@@ -55,7 +55,7 @@
       "Thai Basil",
       "Spicy Peanut Dressing"
     ],
-    "image": "/img/product/pork-desire.png",
+    "image": "/img/product/Spicy-Thai-Delight.png",
     "buttonText": "Order now"
   },
   {
@@ -70,7 +70,7 @@
       "Crispy Onions",
       "Sesame Ginger Dressing"
     ],
-    "image": "/img/product/pork-desire.png",
+    "image": "/img/product/Beef-&-Avocado-Bliss.png",
     "buttonText": "Order now"
   },
   {
@@ -85,7 +85,7 @@
       "Cucumber",
       "Citrus Vinaigrette"
     ],
-    "image": "/img/product/pork-desire.png",
+    "image": "/img/product/Tofu-Garden-Bowl.png",
     "buttonText": "Order now"
   },
   {
@@ -100,7 +100,7 @@
       "Sesame Seeds",
       "Hoisin Glaze"
     ],
-    "image": "/img/product/pork-desire.png",
+    "image": "/img/product/Crispy-Duck-Sensation.png",
     "buttonText": "Order now"
   },
   {
@@ -115,7 +115,7 @@
       "Sesame Seeds",
       "Lemon Herb Dressing"
     ],
-    "image": "/img/product/pork-desire.png",
+    "image": "/img/product/Salmon-Power-Bowl.png",
     "buttonText": "Order now"
   }
 ]
