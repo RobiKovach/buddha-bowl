@@ -14,7 +14,7 @@ export default function MenuPage() {
             {products.map((product, index) => (
               <div key={index} className="product-card">
                 <img
-                  src={product.image}
+                  src={`${process.env.PUBLIC_URL}${product.image}`}
                   alt={product.name}
                   className="product-image"
                 />

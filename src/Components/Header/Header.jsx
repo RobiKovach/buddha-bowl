@@ -9,7 +9,7 @@ export default function Header() {
       <section className="header">
         <div className="header__wrapper">
           <NavLink className="header__logo" to="/">
-            <img src="/img/logo.svg" alt="logo" />
+            <img src={`${process.env.PUBLIC_URL}/img/logo.svg`} alt="Logo" />
           </NavLink>
           <Menu />
         </div>
