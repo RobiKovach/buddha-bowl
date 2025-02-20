@@ -1,0 +1,116 @@
+.menu {
+  // .menu__icon
+  &__icon {
+    display: none;
+    @media (max-width: 768px) {
+      display: block;
+      position: relative;
+      width: 30px;
+      height: 18px;
+      z-index: 5;
+      background: transparent;
+      border: none;
+      @media (any-hover: none) {
+        cursor: default;
+      }
+
+      span,
+      &::before,
+      &::after {
+        content: "";
+        transition: all 0.3s ease 0s;
+        right: 0;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #ffffff;
+      }
+      &::before {
+        top: 0;
+      }
+      &::after {
+        bottom: 0;
+      }
+      span {
+        top: calc(50% - 1px);
+      }
+      .menu-open & {
+        span {
+          width: 0;
+        }
+        &::before,
+        &::after {
+        }
+        &::before {
+          top: calc(50% - 1px);
+          transform: rotate(-45deg);
+        }
+        &::after {
+          bottom: calc(50% - 1px);
+          transform: rotate(45deg);
+        }
+      }
+    }
+  }
+  // .menu__body
+  &__body {
+    @media (max-width: 768px) {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      left: -100%;
+      top: 0;
+      overflow: auto;
+      padding: 0;
+      transition: left 0.3s;
+
+      .menu-open & {
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 32px;
+        background: #333;
+        &::before {
+          left: 0;
+        }
+      }
+    }
+  }
+  // .menu__list
+  &__list {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+    @media (max-width: 768px) {
+      column-gap: 12px;
+    }
+  }
+  // .menu__item
+  &__item {
+    list-style: none;
+    transition: 0.3s;
+    &:hover {
+      scale: 1.1;
+    }
+  }
+  // .menu__link
+  &__link {
+    color: #f5efe6;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: -0.16px;
+    text-decoration: none;
+    @media (max-width: 768px) {
+      font-size: 14px;
+    }
+  }
+}
+
+//Burger Icon
+.icon-menu {
+}

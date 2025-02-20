@@ -1,0 +1,19 @@
+.header {
+  background: #1a4d2e;
+  backdrop-filter: blur(7px);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__logo {
+  }
+
+  &__menu {
+  }
+}

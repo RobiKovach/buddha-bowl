@@ -1,0 +1,26 @@
+[class*="__wrapper"] {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 20px 40px;
+  @media (max-width: 768px) {
+    padding: 20px 20px;
+  }
+}
+
+body {
+  font-family: "Inter";
+  margin: 0;
+  padding-top: 111px;
+  @media (max-width: 768px) {
+    padding-top: 90px;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
