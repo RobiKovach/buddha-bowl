@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/buddha-bowl/static/css/main.3bab917f.css",
+    "main.js": "/buddha-bowl/static/js/main.6119264e.js",
+    "index.html": "/buddha-bowl/index.html",
+    "main.3bab917f.css.map": "/buddha-bowl/static/css/main.3bab917f.css.map",
+    "main.6119264e.js.map": "/buddha-bowl/static/js/main.6119264e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3bab917f.css",
+    "static/js/main.6119264e.js"
+  ]
+}
