@@ -1,0 +1,115 @@
+.specailities {
+  &__wrapper {
+    margin-top: 184px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 64px;
+    margin-bottom: 117px;
+    @media (max-width: 768px) {
+      margin-top: 124px;
+    }
+  }
+
+  &__texts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__title {
+  }
+
+  &__description {
+    color: #1a4d2e;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: -0.792px;
+    max-width: 535px;
+    @media (max-width: 500px) {
+      font-size: 18px;
+      line-height: normal;
+      max-width: 430px;
+    }
+  }
+
+  &__items {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    @media (max-width: 500px) {
+      flex-direction: column;
+      row-gap: 20px;
+      align-items: center;
+    }
+  }
+
+  &__item {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    max-width: 260px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid rgba(27, 27, 27, 0.08);
+    box-shadow: 0px 4px 104px 0px #202b13;
+    @media (max-width: 768px) {
+      max-width: 210px;
+      padding: 28.5px 10px;
+    }
+    @media (max-width: 500px) {
+      max-width: 260px;
+      padding: 40px;
+    }
+  }
+}
+
+.item-specailities {
+  &__box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  &__name {
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    @media (max-width: 768px) {
+      font-size: 18.525px;
+      line-height: 25.65px;
+    }
+    @media (max-width: 500px) {
+      font-size: 26px;
+      line-height: 36px;
+    }
+  }
+
+  &__ingridiens {
+    color: #1a4d2e;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: -0.16px;
+    @media (max-width: 768px) {
+      font-size: 11.4px;
+      line-height: 16.387px;
+    }
+    @media (max-width: 500px) {
+      font-size: 16px;
+      line-height: 23px;
+    }
+  }
+}

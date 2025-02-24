@@ -1,0 +1,18 @@
+.map {
+  border: 0;
+  width: 440px;
+  height: 390px;
+  border-radius: 24px;
+
+  @media (max-width: 768px) {
+    width: 606px;
+    height: 391px;
+    flex-shrink: 0;
+  }
+  @media (max-width: 500px) {
+    width: 330.053px;
+    height: 293.25px;
+    flex-shrink: 0;
+    border-radius: 18px;
+  }
+}

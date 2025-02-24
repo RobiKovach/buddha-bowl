@@ -1,0 +1,137 @@
+.footer {
+  background: #1a4d2e;
+}
+
+.top-footer {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+  &__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width: 500px) {
+      flex-direction: column-reverse;
+      row-gap: 72px;
+      align-items: flex-start;
+    }
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+  }
+}
+
+.item-footer {
+  &__title {
+    color: #f5efe6;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  &__form {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+
+  &__list {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    column-gap: 55px;
+    @media (max-width: 500px) {
+      flex-direction: column;
+      row-gap: 24px;
+    }
+  }
+
+  &__link {
+    color: #f5efe6;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+  }
+
+  &__li {
+    transition: 0.3s;
+    &:hover {
+      scale: 1.1;
+    }
+  }
+}
+
+.form-footer {
+  &__input {
+    color: #f5efe6;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.32px;
+    padding: 9px 12px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    outline: none;
+
+    &::placeholder {
+      color: #f5efe6;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: -0.32px;
+    }
+  }
+
+  &__btn {
+    color: #1a4d2e;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.32px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: #f5efe6;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+    &:hover {
+      scale: 1.1;
+    }
+  }
+}
+
+.bottom-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media (max-width: 500px) {
+    flex-direction: column;
+    row-gap: 8px;
+  }
+
+  &__item {
+    color: #f5efe6;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  &__socials {
+    display: flex;
+    align-items: center;
+    column-gap: 11px;
+  }
+}
