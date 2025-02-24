@@ -5,10 +5,12 @@ import Home from "./Components/Home/Home";
 import OrderPage from "./Components/OrderPage/OrderPage";
 import MenuPage from "./Components/MenuPage/MenuPage";
 import AboutPage from "./Components/AboutPage/AboutPage";
+import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/order" element={<OrderPage />} />
