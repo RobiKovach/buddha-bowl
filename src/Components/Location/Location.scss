@@ -1,0 +1,132 @@
+.location {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 64px;
+    margin-bottom: 124px;
+    @media (max-width: 768px) {
+      row-gap: 32px;
+      margin-bottom: 54px;
+    }
+    @media (max-width: 500px) {
+      row-gap: 11px;
+    }
+  }
+
+  &__content {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 40px;
+    border-radius: 24px;
+    background: #fff;
+    padding: 24px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1), 0px 2px 5px rgba(0, 0, 0, 0.05);
+    @media (max-width: 768px) {
+      flex-direction: column;
+      row-gap: 40px;
+      align-items: center;
+    }
+  }
+}
+
+.content-location {
+  &__info {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 40px;
+    width: 100%;
+    @media (max-width: 768px) {
+      justify-content: center;
+    }
+    @media (max-width: 500px) {
+      flex-direction: column;
+      row-gap: 40px;
+    }
+  }
+}
+
+.info-location {
+  &__visit {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    max-width: 219px;
+    width: 100%;
+  }
+
+  &__hours {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    max-width: 282px;
+    width: 100%;
+  }
+
+  &__title {
+    color: #090909;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: -0.792px;
+  }
+
+  &__items {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    p {
+      color: #090909;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 23px;
+      letter-spacing: -0.16px;
+    }
+  }
+
+  &__btn {
+    color: #1a4d2e;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: -0.16px;
+    text-decoration-line: underline;
+    text-underline-position: from-font;
+    transition: 0.3s;
+    margin-top: 10px;
+    &:hover {
+      scale: 1.1;
+      transform: translateX(10px);
+    }
+  }
+
+  &__hours-item {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 20px;
+    span {
+      color: #090909;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 23px;
+      letter-spacing: -0.16px;
+      &:nth-child(1) {
+        max-width: 93px;
+        width: 100%;
+      }
+
+      &:nth-child(2) {
+        max-width: 78px;
+        width: 100%;
+      }
+    }
+  }
+}

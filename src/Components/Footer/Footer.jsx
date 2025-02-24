@@ -1,11 +1,14 @@
 import React from "react";
 import "./Footer.scss";
+import FooterTop from "./FooterTop/FooterTop";
+import FooterBottom from "./FooterBottom/FooterBottom";
 
 export default function Footer() {
   return (
     <>
       <section className="footer">
-        <div className="footer__wrapper">Footer</div>
+        <FooterTop />
+        <FooterBottom />
       </section>
     </>
   );

@@ -1,0 +1,58 @@
+.banner {
+  background: #1a4d2e;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 8px;
+    transform: translateY(106px);
+  }
+
+  &__texts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__title {
+    color: #f5efe6;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90px;
+
+    @media (max-width: 768px) {
+      font-size: 64px;
+      line-height: 60px;
+    }
+  }
+
+  &__description {
+    color: #f5efe6;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: -0.792px;
+  }
+
+  &__img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__image {
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
+}
