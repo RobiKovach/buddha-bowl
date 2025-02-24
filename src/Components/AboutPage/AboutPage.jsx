@@ -1,14 +1,15 @@
 import React from "react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import Location from "../Location/Location";
+import AboutBanner from "./AboutBanner/AboutBanner";
 
 export default function AboutPage() {
   return (
     <>
       <Header />
-      <section className="about">
-        <div className="about__wrapper">AboutPage</div>
-      </section>
+      <AboutBanner />
+      <Location />
       <Footer />
     </>
   );
