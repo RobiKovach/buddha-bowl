@@ -1,6 +1,5 @@
 import React from "react";
 import "./AboutBanner.scss";
-import OrderNow from "../../Header/OrderNow/OrderNow";
 
 export default function MenuBanner() {
   return (

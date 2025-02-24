@@ -14,7 +14,7 @@ export default function ItemSpeciality({ product }) {
         <p className="item-specailities__ingridiens">
           {product.ingredients.join(", ")}
         </p>
-        <OrderNow />
+        <OrderNow product={product} />
       </div>
     </div>
   );

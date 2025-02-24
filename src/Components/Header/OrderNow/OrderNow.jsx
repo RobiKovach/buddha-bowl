@@ -1,11 +1,17 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "./OrderNow.scss";
 
-export default function OrderNow({ closeMenu }) {
+export default function OrderNow({ product }) {
+  const navigate = useNavigate();
+
+  const handleOrderNow = () => {
+    navigate("/order", { state: { product } });
+  };
+
   return (
-    <NavLink to="/order" className="order-now" onClick={closeMenu}>
+    <button className="order-now" onClick={handleOrderNow}>
       Order Now
-    </NavLink>
+    </button>
   );
 }
