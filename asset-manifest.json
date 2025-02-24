@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/buddha-bowl/static/css/main.f76bb484.css",
-    "main.js": "/buddha-bowl/static/js/main.4a22c2fc.js",
+    "main.css": "/buddha-bowl/static/css/main.b000f12f.css",
+    "main.js": "/buddha-bowl/static/js/main.94c4313c.js",
     "index.html": "/buddha-bowl/index.html",
-    "main.f76bb484.css.map": "/buddha-bowl/static/css/main.f76bb484.css.map",
-    "main.4a22c2fc.js.map": "/buddha-bowl/static/js/main.4a22c2fc.js.map"
+    "main.b000f12f.css.map": "/buddha-bowl/static/css/main.b000f12f.css.map",
+    "main.94c4313c.js.map": "/buddha-bowl/static/js/main.94c4313c.js.map"
   },
   "entrypoints": [
-    "static/css/main.f76bb484.css",
-    "static/js/main.4a22c2fc.js"
+    "static/css/main.b000f12f.css",
+    "static/js/main.94c4313c.js"
   ]
 }
